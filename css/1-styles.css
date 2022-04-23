@@ -14,8 +14,7 @@ tbody>tr:hover {
 .socialB {
 	margin: auto;
 	padding: 15px;
-	border: 3px;
-	border-color: black;
+	border: 3px solid black;
 	border-radius: 6px;
 	background: rgb(209, 209, 209);
 }
@@ -23,4 +22,8 @@ tbody>tr:hover {
 .ava {
 	width: 300px;
 	border-radius: 28px;
+}
+
+.skills li:hover {
+	color: blueviolet;
 }
