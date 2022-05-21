@@ -97,8 +97,18 @@ div {
 
 #winform:hover {
 	color:rgb(12, 235, 45);
+  text-shadow:
+   3px 3px 0 #000,
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
 }
 
 #bgmusic {
 	display:none;
+}
+
+td {
+	text-align: center;
 }
