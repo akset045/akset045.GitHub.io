@@ -71,10 +71,13 @@ div {
 	position:relative;
 }
 
-.itsME td:hover {
+#itsME td:hover {
 	color: rgb(43, 195, 226);
 }
 
+#itsME t {
+	color: black;
+}
 
 .exp{
 	padding: 14px;
@@ -83,7 +86,14 @@ div {
 
 .exp td:hover{
 	color:crimson;
+}
 
+.exp td:hover>#xamarin {
+	color: rgb(43, 181, 255);
+}
+
+.exp td:hover>#winform {
+	color: rgb(12, 235, 45);
 }
 
 .summary{
@@ -91,19 +101,17 @@ div {
 	padding: 15px;
 }
 
-#xamarin:hover {
-	color: rgb(58, 8, 128);
+/* #xamarin:hover {
+	color: rgb(43, 181, 255);
+	margin: 0;
+	-webkit-text-stroke: 2px rgb(58, 8, 128);
 }
 
 #winform:hover {
-	color:rgb(12, 235, 45);
-  text-shadow:
-   3px 3px 0 #000,
-   -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-   1px 1px 0 #000;
-}
+	color: rgb(12, 235, 45);
+	margin: 0;
+	-webkit-text-stroke: 2px rgb(12, 235, 45);
+} */
 
 #bgmusic {
 	display:none;
@@ -111,4 +119,14 @@ div {
 
 td {
 	text-align: center;
+}
+
+#SoundButton {
+	border: none;
+	background-color: white;
+}
+
+#SoundIcon {
+	height: 50px;
+	width: 50px;
 }

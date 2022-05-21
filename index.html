@@ -11,14 +11,24 @@
     <link rel="stylesheet" href="css/2-fonts.css">
   </head>
   <body>
-		<iframe id="bgmusic" src="src/track.mp3" allow="autoplay" loop>
-		</iframe>
+
+
+		<script type="text/javascript" src="js/bgm.js"></script>
+
+		<audio src="src/track.mp3" type="audio/mpeg" autoplay="true" loop="true" id="sound"></audio>
+
+
 
 		<header>
 
       <h1>
 				<t>Резюме</t>
 			</h1>
+
+			<span>
+				<button onClick="playpause()" id="SoundButton"><img src='src/sound-on.gif' alt='Here's an audio control' id='SoundIcon'></button>
+			</span>
+
 
     </header>
 
@@ -123,13 +133,13 @@
             </thead>
             <tbody>
               <tr>
-                <td><strong><em>Культура</em></strong>: люблю живопись и цифровой арт</td>
+                <td><t><strong><em>Культура</em></strong>:</t> люблю живопись и цифровой арт</td>
               </tr>
               <tr>
-                <td><strong><em>Наука</em></strong>: мне особенно интересная биология и химия</td>
+                <td><t><strong><em>Наука</em></strong>:</t> мне особенно интересная биология и химия</td>
               </tr>
               <tr>
-                <td><strong><em>IT</em></strong>: компьютеры были интересны с детства</td>
+                <td><t><strong><em>IT</em></strong>:</t> компьютеры были интересны с детства</td>
               </tr>
             </tbody>
           </table>
