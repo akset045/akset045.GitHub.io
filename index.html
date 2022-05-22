@@ -14,18 +14,22 @@
 
 		<script type="text/javascript" src="js/bgm.js"></script>
 
-		<audio src="src/track.mp3" type="audio/mpeg" autoplay="true" loop="true" id="sound"></audio>
+		<audio src="src/track.mp3" type="audio/mpeg" autoplay="true" loop="true" id="sound" preload="true"></audio>
 
 		<header>
 
-      <h1>
-				<t>Резюме</t>
-			</h1>
+			<div >
 
-			<span>
-				<button onClick="playpause()" id="SoundButton"><img src='src/sound-on.gif' alt='Here's an audio control' id='SoundIcon'></button>
-			</span>
+				<span class="top">
+					<h1>
+						<t>Резюме</t>
+					</h1>
+				</span>
+				<span class="top">
+					<button onClick="playpause()" id="SoundButton"><img src='src/sound-on.gif' alt='Here's an audio control' id='SoundIcon'></button>
+				</span>
 
+			</div>
 
     </header>
 
@@ -41,112 +45,105 @@
 				Начинающий разработчик
 			</H2>
 
+    </div>
 
-			<div style="height: 317px">
+		<div style="height: 317px">
+			<a href="https://akset045.github.io/src/av.jpg" target=_blank><img class="ava" src="src/av.jpg" alt="Тут должна быть фотография"></a>
+		</div>
+		<div class="summary">
+			3 года на <strong><em>фрилансе</em></strong>.
+		</div>
 
-				<a href="https://akset045.github.io/src/av.jpg" target=_blank><img class="ava" src="src/av.jpg" alt="Тут должна быть фотография"></a>
+		<div class="exp">
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Опыт:
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							Аутсорс администрирование БД, составление документации.
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Разработка Front-End приложений <span id="xamarin">Xamarin (Android)</span> и <span id="winform">Windows Forms</span>.
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Последние 2 года занимался контроллерами отопительных систем частных домов.
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
-			</div>
+    <div>
 
-			<div class="summary">
-				3 года на <strong><em>фрилансе</em></strong>.
-			</div>
-
-			<div class="exp">
-				<table>
-					<thead>
-						<tr>
-							<th>
-								Опыт:
-							</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>
-								Аутсорс администрирование БД, составление документации.
-							</td>
-						</tr>
-						<tr>
-							<td>
-								Разработка Front-End приложений <span id="xamarin">Xamarin (Android)</span> и <span id="winform">Windows Forms</span>.
-							</td>
-						</tr>
-						<tr>
-							<td>
-								Последние 2 года занимался контроллерами отопительных систем частных домов.
-							</td>
-						</tr>
-					</tbody>
-				</table>
-
-			</div>
-
-      <div>
-
-				<div class="skills">
-          <table>
-            <thead>
-              <tr>
-                <th>
-									Навыки:
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>SQL / T-SQL / MSSQL</td>
-              </tr>
-              <tr>
-                <td>C# / .NET</td>
-              </tr>
-              <tr>
-                <td>HTML / CSS</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-
-        <div class="skill-img">
-
-          <img src="https://img.shields.io/badge/-black.svg?logo=dotnet" height="60">
-          &emsp;
-          <img src="https://img.shields.io/badge/-ffcc00.svg?logo=MicrosoftSQLServer" height="60">
-          &emsp;
-          <img src="https://img.shields.io/badge/-blueviolet.svg?logo=visualstudio" height="60">
-          &emsp;
-          <img src="https://img.shields.io/badge/-blue.svg?logo=visualstudiocode" height="60">
-
-        </div>
-
-				<div id="itsME">
-          <table>
-            <thead>
-              <tr>
-                <th>Увлечения:
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><t><strong><em>Культура</em></strong>:</t> люблю живопись и цифровой арт</td>
-              </tr>
-              <tr>
-                <td><t><strong><em>Наука</em></strong>:</t> мне особенно интересная биология и химия</td>
-              </tr>
-              <tr>
-                <td><t><strong><em>IT</em></strong>:</t> компьютеры были интересны с детства</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <hr>
-
-        <!-- </center> -->
-
+			<div class="skills">
+        <table>
+          <thead>
+            <tr>
+              <th>
+								Навыки:
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>SQL / T-SQL / MSSQL</td>
+            </tr>
+            <tr>
+              <td>C# / .NET</td>
+            </tr>
+            <tr>
+              <td>HTML / CSS</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-			</center>
 
-    </body>
+      <div class="skill-img">
+        <img src="https://img.shields.io/badge/-black.svg?logo=dotnet" height="60">
+        &emsp;
+        <img src="https://img.shields.io/badge/-ffcc00.svg?logo=MicrosoftSQLServer" height="60">
+        &emsp;
+        <img src="https://img.shields.io/badge/-blueviolet.svg?logo=visualstudio" height="60">
+        &emsp;
+        <img src="https://img.shields.io/badge/-blue.svg?logo=visualstudiocode" height="60">
+      </div>
+
+			<div id="itsME">
+        <table>
+          <thead>
+            <tr>
+              <th>Увлечения:
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><t><strong><em>Культура</em></strong>:</t> люблю живопись и цифровой арт</td>
+            </tr>
+            <tr>
+              <td><t><strong><em>Наука</em></strong>:</t> мне особенно интересная биология и химия</td>
+            </tr>
+            <tr>
+              <td><t><strong><em>IT</em></strong>:</t> компьютеры были интересны с детства</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <hr>
+
+    </div>
+    </center>
+
+  </body>
+</html>

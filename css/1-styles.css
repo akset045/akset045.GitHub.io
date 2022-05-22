@@ -10,8 +10,8 @@ html {
 }
 
 div {
-	margin: auto;
-	/* width: 50%; */
+	/* margin: auto; */
+	/* width: 25px; */
 	/* padding: 40px; */
 	/* justify-content: center; */
 }
@@ -120,9 +120,15 @@ td {
 #SoundButton {
 	border: none;
 	background-color: white;
+	padding-bottom: 30px;
+
 }
 
 #SoundIcon {
-	height: 50px;
-	width: 50px;
+	height: 25px;
+	width: 20px;
+}
+
+.top {
+	display: inline-block;
 }
