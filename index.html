@@ -7,14 +7,16 @@
 		<meta name="keyword" content="akset045, Аксенов Тимофей, Тимофей Аксенов">
 		<meta name="description" content="Резюме Аксенова Тимофея">
     <title>Резюме Аксенова Тимофея</title>
-    <link href="css/1-styles.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/2-fonts.css">
+		<link href="css/1-styles-light.css" rel="stylesheet" id="ThemeNow">
+		<link href="css/0-styles-main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/4-fonts.css">
   </head>
   <body>
 
-		<script type="text/javascript" src="js/bgm.js"></script>
+		<audio src="src/track.mp3" type="audio/mpeg" autoplay="true" loop="true" id="SoundEl"></audio>
 
-		<audio src="src/track.mp3" type="audio/mpeg" autoplay="true" loop="true" id="sound" preload="true"></audio>
+		<!-- <iframe src="src/track.mp3" type="audio/mpeg" controls="none" autoplay="true" id="SoundEl"></iframe> -->
+
 
 		<header>
 
@@ -25,8 +27,13 @@
 						<t>Резюме</t>
 					</h1>
 				</span>
+
 				<span class="top">
-					<button onClick="playpause()" id="SoundButton"><img src='src/sound-on.gif' alt='Here's an audio control' id='SoundIcon'></button>
+					<button id="SoundButton"><img src='src/sound-on-dark.png' alt="Here's an audio control" id='SoundIcon'></button>
+				</span>
+
+				<span class="top">
+					<button id="ThemeButton"><img id="ThemeIcon" src="scr/theme-sun.gif"></button>
 				</span>
 
 			</div>
@@ -34,6 +41,7 @@
     </header>
 
     <hr>
+
 		<center>
 		<div>
 
@@ -142,8 +150,24 @@
 
       <hr>
 
+			<div class="socialB">
+
+				<!-- <a href=https://twitter.com/akset045 target=_blank><img src="https://img.shields.io/badge/-@Akset045-black.svg?logo=twitter"></a> -->
+
+				<a href=https://t.me/akset045 target=_blank><img src="https://img.shields.io/badge/-@Akset045-black.svg?logo=telegram"></a>
+
+				<a href=https://github.com/akset045 target=_blank><img src="https://img.shields.io/badge/@Akset045-black?logo=github"></a>
+
+				<!-- <a href=https://vk.com/akset045 target=_blank><img src="https://img.shields.io/badge/-@Akset045-black.svg?logo=vk&logoColor=blue"></a> -->
+
+				<a href=mailto:akset045@gmail.com target=_blank><img src="https://img.shields.io/badge/-@Akset045-black.svg?logo=gmail"></a>
+
+			</div>
+
     </div>
     </center>
+
+		<script type="text/javascript" src="js/bgm.js"></script>
 
   </body>
 </html>

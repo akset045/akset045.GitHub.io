@@ -1,19 +1,11 @@
-::selection {
-	color: rgba(255, 255, 255);
-	background: rgb(13, 196, 209);
-	font-style:initial;
-	border-radius: 6px;
-}
-
 html {
 	cursor:auto;
+
 }
 
-div {
-	/* margin: auto; */
-	/* width: 25px; */
-	/* padding: 40px; */
-	/* justify-content: center; */
+body {
+	/* width: 100%; */
+	max-width: 97%;
 }
 
 .socialA {
@@ -30,10 +22,16 @@ div {
 	background: rgb(209, 209, 209);
 }
 
+.socialB {
+	padding: 25px;
+	display: inline-block
+}
+
 .socialB img {
-	min-width: 50px;
-	width: 200px;
-	min-height: 50px;
+	min-width: 120px;
+	width: 160px;
+	margin: auto;
+	/* min-height: 50px; */
 }
 
 .ava {
@@ -119,14 +117,32 @@ td {
 
 #SoundButton {
 	border: none;
-	background-color: white;
-	padding-bottom: 30px;
+	background-color: transparent;
+	/* padding-bottom: 30px; */
 
 }
 
 #SoundIcon {
 	height: 25px;
 	width: 20px;
+}
+
+#SoundEl {
+	display: none;
+}
+
+#ThemeButton {
+	height: 20px;
+	width: 20px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+  left: 96%;
+	top: 12px;
+}
+
+#ThemeIcon {
+	height: 45px;
 }
 
 .top {
