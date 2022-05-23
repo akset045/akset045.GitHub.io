@@ -1,6 +1,10 @@
+:root {
+	background-color: var(--back-color);
+	color: var(--color);
+}
+
 html {
 	cursor:auto;
-
 }
 
 body {
@@ -67,6 +71,10 @@ body {
 	padding: 14px;
 	list-style: none;
 	position:relative;
+}
+
+#itsME t {
+	color: var(--color);
 }
 
 #itsME td:hover {

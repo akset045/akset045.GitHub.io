@@ -1,8 +1,4 @@
 :root {
-	background-color: rgba(5, 2, 41, 0.826);
-	color: rgb(255, 255, 255);
-}
-
-#itsME t {
-	color: rgba(255, 255, 255);
+	--back-color: rgba(5, 2, 41, 0.826);
+	--color: rgb(255, 255, 255);
 }
