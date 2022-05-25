@@ -7,15 +7,6 @@ let BGMIcon = document.getElementById("SoundIcon");
 let theme = document.getElementById('ThemeNow');
 let themeIcon = document.getElementById('ThemeIcon');
 
-if (window.matchMedia('(prefers-color-scheme: dark)').matches == true) {
-	theme.href = 'css/2-styles-dark.css'
-}
-else {
-	theme.href = 'css/1-styles-light.css'
-}
-
-
-
 SoundButton.onclick = function SwitchSNDButton () {
 
 	BGM.muted = !BGM.muted;
@@ -62,4 +53,11 @@ ThemeButton.onclick = function SwitchTheme () {
 			BGMIcon.src = 'src/sound-on-dark.png'
 		}
 	}
+}
+
+if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+	theme.href = 'css/2-styles-dark.css'
+}
+else {
+	theme.href = 'css/1-styles-light.css'
 }

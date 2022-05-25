@@ -3,13 +3,26 @@
 	color: var(--color);
 }
 
-html {
+body, html {
+	/* width: 100%; */
+	max-width: 100%;
 	cursor:auto;
+	/* position: absolute; */
 }
 
-body {
-	/* width: 100%; */
-	max-width: 97%;
+
+.headC {
+	width: 96%;
+	background: var(--back-color);
+	display: flex;
+	/* justify-content: space-between; */
+	/* padding: 10px; */
+	/* position: fixed; */
+}
+
+.top {
+	display: flex;
+	/* position: fixed; */
 }
 
 .socialA {
@@ -27,8 +40,13 @@ body {
 }
 
 .socialB {
-	padding: 25px;
-	display: inline-block
+	padding: 2px;
+	display: inline-block;
+	position: fixed;
+	bottom: 2px;
+	right: -4%;
+	width: 40%;
+	align-items: center;
 }
 
 .socialB img {
@@ -57,7 +75,7 @@ body {
 	position:relative;
 }
 
-.skills td:hover {
+.skills td:hover>t {
 	color: blueviolet;
 }
 
@@ -83,7 +101,7 @@ body {
 
 .exp{
 	padding: 14px;
-	width: 100%;
+	width: 90%;
 }
 
 .exp td:hover{
@@ -141,7 +159,7 @@ td {
 	background-color: transparent;
 	border: none;
 	position: absolute;
-  left: 96%;
+  	left: 94%;
 	top: 12px;
 }
 
@@ -149,6 +167,4 @@ td {
 	height: 45px;
 }
 
-.top {
-	display: inline-block;
-}
+
